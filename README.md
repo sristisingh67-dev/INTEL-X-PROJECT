@@ -1,29 +1,43 @@
-# Welcome to your Lovable project
+# INTEL-X
+INTEL-X is an interactive intelligence and operations dashboard designed to bring global activity and operational data together in one place. The project focuses on creating a clean, futuristic interface that makes complex information easier to explore and understand.
+The dashboard combines interactive global maps, flight-route visualization, intelligence insights, and real-time style UI elements to create an immersive command-center experience.
 
-This project was built with [Lovable](https://lovable.dev).
+## Features
+* Interactive global map and location-based visualization
+* Flight route and movement visualization
+* Intelligence and operational data panels
+* Futuristic HUD-inspired interface
+* Responsive and modern dark-themed design
+* Interactive charts and visual data components
 
-## Build with Lovable
+## Tech Stack
+* React
+* Vite
+* JavaScript / JSX
+* Tailwind CSS
+* Recharts
+* Lucide React
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
+## Getting Started
+Clone the repository and install the dependencies:
+```bash
+git clone https://github.com/sristisingh67-dev/INTEL-X-PROJECT.git
+cd INTEL-X-PROJECT
+npm install
+```Start the development server:
+```bash
 npm run dev
 ```
+To create a production build:
+```bash
+npm run build
+```
 
-## Built with
+## Deployment
+The project is ready to be deployed using Vercel. Connect the GitHub repository to Vercel and use the default Vite build settings.
 
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
+## Author
+**Sristi Singh**
+
+GitHub: [@sristisingh67-dev](https://github.com/sristisingh67-dev)
+
