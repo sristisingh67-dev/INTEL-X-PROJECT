@@ -1,0 +1,14 @@
+/* Hero section styles */
+.intel-hero {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.operative-wrapper {
+  pointer-events: none;
+  position: absolute;
+  bottom: 0;
+  z-index: 10;
+}
