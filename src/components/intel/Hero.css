@@ -7,8 +7,27 @@
 }
 
 .operative-wrapper {
-  pointer-events: none;
   position: absolute;
   bottom: 0;
   z-index: 10;
+  touch-action: none;
+}
+
+@keyframes scanline {
+  0% {
+    top: 5%;
+    opacity: 0.3;
+  }
+  50% {
+    top: 92%;
+    opacity: 1;
+  }
+  100% {
+    top: 5%;
+    opacity: 0.3;
+  }
+}
+
+.animate-scanline {
+  animation: scanline 2.2s ease-in-out infinite;
 }

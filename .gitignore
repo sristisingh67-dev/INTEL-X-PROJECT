@@ -16,6 +16,7 @@ dist-ssr
 .nitro
 *.local
 .workspace
+INTEL-X-PROJECT
 
 # Wrangler / Cloudflare
 .wrangler/
